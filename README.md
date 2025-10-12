@@ -59,7 +59,7 @@ This project demonstrates how exploratory data analysis and feature engineering 
 
 ---
 **Results (partial)**
-*Partial view of the evaluation; see notebook for complete results.*
+*Partial view of the evaluation; see notebook for complete results: [BankSim_Fraud_Analysis.ipynb](./BankSim_Fraud_Analysis.ipynb)*
 <img width="550" height="107" alt="image" src="https://github.com/user-attachments/assets/107dfe06-3bec-4178-a1fd-e77619b09769" />
 
 
