@@ -56,14 +56,9 @@ This project demonstrates how exploratory data analysis and feature engineering 
 - **Behavioral and contextual signals** (e.g., transaction bursts, first-time merchant) showed limited predictive power as standalone rules, 
   but add clarity and interpretability when combined with categorical and amount signals.
 
-
----
 **Results (partial)**
-*Partial view of the evaluation; see notebook for complete results: [BankSim_Fraud_Analysis.ipynb](./BankSim_Fraud_Analysis.ipynb)*
+*Partial view of the evaluation; see notebook for complete results: | [View on GitHub](./BankSim_Fraud_Analysis_full.ipynb) |
 <img width="550" height="107" alt="image" src="https://github.com/user-attachments/assets/107dfe06-3bec-4178-a1fd-e77619b09769" />
-
-
----
 
 **Conclusions**
 - Simple categorical rules deliver **very high recall** with moderate precision.  
@@ -79,7 +74,12 @@ This analysis reveals that fraud detection benefits most from **interpretable, d
 Fraud is highly concentrated within specific merchants, categories, and extreme-amount transactions — 
 making these dimensions the backbone of practical detection rules.
 
---- 
+---
+## Notebooks
+- **Main Parts** - Condensed notebook focusing on key rules, visualizations, and evaluation results. | [View on GitHub](./BankSim_Fraud_Analysis_main_parts.ipynb) |
+- **Full Analysis** - Complete version including full EDA, feature engineering, and detailed rule evaluation. | [View on GitHub](./BankSim_Fraud_Analysis_Full.ipynb) |
+
+---
 ## Environment & Setup
 - **Python:** 3.10+
 - **Install:** `pip install -r requirements.txt`
@@ -89,14 +89,18 @@ making these dimensions the backbone of practical detection rules.
 ---
 
 ## Repository Structure
+````
 .
-├─ BankSim_Fraud_Analysis.ipynb
-├─ data/
-│  └─ README.md
-├─ requirements.txt
-├─ .gitignore
-└─ README.md
-
+├── BankSim_Fraud_Analysis_main_parts.ipynb   # condensed version with key results
+├── BankSim_Fraud_Analysis_full.ipynb         # full notebook: complete EDA + rule evaluation
+├── data/
+│   ├── README.md                             # explains how to add the dataset
+│   └── bs140513_032310.csv                   # (local only, not uploaded to GitHub)
+├── requirements.txt
+├── .gitignore
+└── README.md
+````
+---
 ## Quickstart
 
 ```bash
