@@ -81,11 +81,25 @@ making these dimensions the backbone of practical detection rules.
 
 --- 
 ## Environment & Setup
-- **Python:** 3.10
+- **Python:** 3.10+
 - **Install:** `pip install -r requirements.txt`
-- **Run locally:** open `notebook.ipynb` in Jupyter and run all cells
-- **Run in Colab:** upload `notebook.ipynb` and `bs140513_032310.csv`, then run
-
+- **Data:** place `bs140513_032310.csv` under `data/`
+- **Run locally:** open `BankSim_Fraud_Analysis.ipynb` in Jupyter and **Run All**
+- **Run in Colab:** open `BankSim_Fraud_Analysis.ipynb` → create a `data/` folder → upload `bs140513_032310.csv` into `data/` → **Run All**
 ---
 
 ## Repository Structure
+├─ BankSim_Fraud_Analysis.ipynb
+├─ data/
+│  └─ README.md
+├─ requirements.txt
+├─ .gitignore
+└─ README.md
+
+## Quickstart
+
+```bash
+pip install -r requirements.txt
+# Place bs140513_032310.csv under data/
+jupyter notebook
+# Open BankSim_Fraud_Analysis_main_parts.ipynb and Run All
