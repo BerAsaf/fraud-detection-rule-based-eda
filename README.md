@@ -89,6 +89,7 @@ making these dimensions the backbone of practical detection rules.
 ---
 
 ## Repository Structure
+.
 ├─ BankSim_Fraud_Analysis.ipynb
 ├─ data/
 │  └─ README.md
