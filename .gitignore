@@ -1,0 +1,17 @@
+# data & outputs
+data/*
+!data/README.md
+outputs/*
+!.gitkeep
+
+# jupyter temp
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# env / python cache
+.venv/
+__pycache__/
+
+# OS noise
+.DS_Store
+Thumbs.db
